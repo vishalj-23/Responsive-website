@@ -245,6 +245,7 @@ footer{
     }
     .v-class{
         opacity: 0;
+         
     }
     .section{
         flex-direction: column-reverse;
