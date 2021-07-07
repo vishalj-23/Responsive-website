@@ -220,6 +220,7 @@ footer {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-gap: 2em;
+  margin-bottom: 30px;
 
   /* background-color: gray; */
 }
@@ -266,6 +267,7 @@ footer {
 .contain {
   color: white;
   display: flex;
+
   margin-top: 100px;
   margin-bottom: 100px;
   /* margin: 0 10%; */
