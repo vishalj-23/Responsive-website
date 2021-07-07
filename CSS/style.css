@@ -349,3 +349,21 @@ footer {
     height: 450px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .tuts {
+    display: grid;
+    grid-template-columns: 60%;
+  }
+  /* .cards {
+    background-color: aliceblue;
+    border: #555555 1px solid;
+  } */
+  /* .contact {
+    height: 500px;
+  } */
+  .contain {
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 20%;
+  }
+}
