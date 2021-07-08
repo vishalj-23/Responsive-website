@@ -334,7 +334,9 @@ footer {
   .cards {
     margin-top: 10px;
     margin-bottom: 10px;
+    /* margin-left: 0px; */
     width: 100%;
+    text-align: center;
   }
   .text-small {
     text-align: center;
@@ -374,7 +376,8 @@ footer {
 @media only screen and (max-width: 600px) {
   .tuts {
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    /* grid-gap-: 1rem; */
+    text-align: center;
   }
   .contain {
     display: flex;
@@ -384,5 +387,8 @@ footer {
   }
   .contain-cont {
     width: 80%;
+  }
+  .cards {
+    margin-left: 0px;
   }
 }
