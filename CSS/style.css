@@ -363,7 +363,25 @@ footer {
   } */
   .contain {
     flex-direction: column;
-    width: 100%;
-    margin: 0% 20%;
+    /* width: 100%; */
+    /* margin: 0% 20%; */
+    margin-left: 100px;
+    /* margin-right: 0px; */
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tuts {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .contain-cont {
+    width: 80%;
   }
 }
