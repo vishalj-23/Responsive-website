@@ -46,7 +46,7 @@ html {
   text-decoration: none;
   color: grey;
 }
-.right-nav {
+.rightNav {
   /* background-color: aqua; */
   width: 30%;
   text-align: right;
@@ -112,7 +112,7 @@ html {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: black;
+  background-color: #555555;
   color: white;
   transition: 0.5s;
 }
@@ -255,7 +255,7 @@ footer {
 .d-btn {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #555555;
+  background-color: rgb(128, 120, 120);
 }
 .cont {
   font-weight: 700;
@@ -294,7 +294,7 @@ footer {
     flex-direction: column;
     transition: all 0.3s ease-out;
   }
-  .right-nav {
+  .rightNav {
     text-align: center;
   }
   #search {
@@ -345,6 +345,7 @@ footer {
   .buttons {
     text-align: center;
   }
+
   .contact {
     height: 450px;
   }
