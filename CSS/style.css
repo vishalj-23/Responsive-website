@@ -387,8 +387,13 @@ footer {
   }
   .contain-cont {
     width: 80%;
+    margin-top: 5px;
+    margin-bottom: 7px;
   }
   .cards {
     margin-left: 0px;
+  }
+  .contact {
+    height: 425px;
   }
 }
