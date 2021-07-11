@@ -396,4 +396,7 @@ footer {
   .contact {
     height: 425px;
   }
+  .secondhalf img {
+    margin-bottom: 20px;
+  }
 }
